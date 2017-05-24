@@ -17,7 +17,8 @@ class PartyCell: UITableViewCell {
         super.awakeFromNib()
     }
     
-    func updateUI() {
-        
+    func updateUI(partyRock: PartyRock) {
+        videoTitle.text = partyRock.videoTitle
+        // TODO: IMAGE FROM URL
     }
 }
